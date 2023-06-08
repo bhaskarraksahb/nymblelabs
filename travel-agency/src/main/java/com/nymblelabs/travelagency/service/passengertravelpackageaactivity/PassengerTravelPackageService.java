@@ -1,0 +1,8 @@
+package com.nymblelabs.travelagency.service.passengertravelpackageaactivity;
+
+import com.nymblelabs.travelagency.Entity.PassengerTravelPackageActivity;
+import com.nymblelabs.travelagency.Entity.travelPackage.TravelPackage;
+
+public interface PassengerTravelPackageService {
+  PassengerTravelPackageActivity savePassengerTravelPackageActivity(PassengerTravelPackageActivity thePassengerTravelPackageActivity);
+}
